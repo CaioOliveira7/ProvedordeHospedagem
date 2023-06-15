@@ -49,43 +49,36 @@
 }
 
 #banner{
-    width: 100%;
-    background-color: #2f86d6;        
+    background-color: #2f86d6;
     color: #fff;
 }
 
 .container-banner{
-    position: relative;  
-    padding: 180px 0;     
+    position: relative;
+    padding: 180px 0px;
+}
+.container-banner div{        
+    width: 470px;
 }
 
-.img-banner{
- position: relative;   
+.banner-texto p{
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 32px;
 }
 
-img.banner img{
-    width: 470px;    
-}
-
-.banner-texto div{
-    position: absolute;
-    top: 60px;
-    right: 120px;    
+.banner-texto h2{
+    font-size: 28px;
+    padding: 20px 0px;
 }
 
 .banner-texto{
-    width: 600px;
-}
-.banner-texto h2{
-    margin: 20px 0px;
+    margin-left: 180px;
 }
 
-.banner-texto p, h2{
-    padding-left: 210px;
+.container-banner .image{
+    position: absolute;        
+    width: 50%;
+    top: 100px;
+    right: 0px;
 }
-
-#anuncio{
-    background-color: #23303e;
-    color: #fff;
-}
-
