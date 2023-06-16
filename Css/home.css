@@ -162,3 +162,28 @@
     line-height: 24px;
     letter-spacing: 1px;
 }
+
+#tabela-de-planos{
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-planos h2{
+    text-align: center;
+    word-spacing: 3px;
+}
+
+.tabela{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 0 0 20px 10px #2f86d6;
+}
+
+.tabela img{
+    width: 100px;
+    text-align: center;
+}
