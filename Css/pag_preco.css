@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top{
+    background-color: #2f86d6;
+}
+
+.limita-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-top{    
+    position: relative;
+    padding: 35px 0px;    
+}
+
+.img-top{
+    position: relative;
+}
+
+.img-top img{
+    width: 80px;
+}
+
+.img-top div{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.img-top div p{
+    color: #fff;
+}
+
+.links-top{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+}
+
+.links-top a{
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+#tabela-precos{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+.tabela{
+    width: 900px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+#cabecalho{
+    text-align: center;
+}
+
+#cabecalho p{
+    color: #a89f9f;
+    font-size: 11px;
+}
+
+thead tr th{
+    padding: 10px 40px;
+}
+
+.fundo-cinza{
+    background-color: #f1f3f7;
+}
+
+tbody tr td{
+    line-height: 26px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+#p-celula{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.marcador-azul{
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100%;
+}
+
+#rodape{
+    width: 100%;
+    margin: 50px auto;
+
+.container-rodape{
+    position: relative;
+    padding: 35px 0;
+}
+
+.img-rodape{
+    position: relative;
+}
+
+.img-rodape img{
+    width: 140px;
+    margin-left: 500px;
+}
+
+.img-rodape div{
+    position: absolute;
+    top: 30px;
+    right: 410px;
+    font-size: 26px;
+    text-align: left;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 50px;
+}
