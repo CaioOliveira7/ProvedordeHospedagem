@@ -173,6 +173,7 @@
 .container-planos h2{
     text-align: center;
     word-spacing: 3px;
+    font-size: 32px;
 }
 
 .tabela{
@@ -185,5 +186,99 @@
 
 .tabela img{
     width: 100px;
+    text-align: center;
+}
+
+table thead tr th{
+    padding: 10px 0;
+}
+
+table thead tr th h3{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+table thead tr th p{
+    font-size: 15px;
+    color: #a89f9f;
+    padding: 10px 0;
+}
+
+table tbody tr td{
+    padding: 10px 0;
+}
+
+.impar{
+    font-size: 16px;
+    background-color: #f6f6f6;
+}
+
+.par{
+    font-size: 16px;
+    background-color: #f1f3f7;
+}
+
+.segundo-anuncio{
+    width: 100%;    
+    margin: 0 auto;
+    padding: 20px 100px;
+}
+
+.segundo-anuncio div h3{
+    font-size: 24px;
+    line-height: 32px;
+    word-spacing: 3px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+}
+
+.segundo-anuncio div p{
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.segundo-anuncio .link{
+    position: absolute;
+    right: 100px;
+    background-color: #2f86d6;
+    padding: 10px;
+    color: #fff;
+}
+
+#contato{
+    width: 100%;
+    margin: 50px auto;
+    
+}
+
+.container-rodape{
+    position: relative;
+    padding: 35px 0;
+}
+
+.img-rodape{
+    position: relative;
+}
+
+.img-rodape img{
+    width: 140px;
+    margin-left: 500px;
+}
+
+.img-rodape div{
+    position: absolute;
+    top: 30px;
+    right: 410px;
+    font-size: 26px;
+    text-align: left;
+}
+
+.end-cont{
+    text-align: center;
+    margin: 50px auto;
+    line-height: 26px;
+}
+
+.copyright{
     text-align: center;
 }
