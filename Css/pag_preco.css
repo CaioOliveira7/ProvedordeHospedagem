@@ -106,32 +106,50 @@ tbody tr td{
 }
 
 #rodape{
-    width: 100%;
-    margin: 50px auto;
-
-.container-rodape{
-    position: relative;
-    padding: 35px 0;
+    padding: 70px;
+    background-color: #2f86d6;
 }
 
 .img-rodape{
     position: relative;
+    width: 320px;
+    margin: auto;
 }
 
 .img-rodape img{
-    width: 140px;
-    margin-left: 500px;
+    width: 80px;    
 }
 
 .img-rodape div{
     position: absolute;
-    top: 30px;
-    right: 410px;
-    font-size: 26px;
-    text-align: left;
+    top: 0;
+    left: 95px;
+}
+
+.img-rodape p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.paragrafo-rodape{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 20px 0 70px;
 }
 
 .copyright{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600px;
     text-align: center;
-    margin-top: 50px;
+    padding: 20px 0;       
+}
+
+.texto-azul{
+    color: #2f86d6;
+    font-weight: bold;
 }
