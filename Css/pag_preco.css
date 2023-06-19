@@ -59,8 +59,7 @@
 }
 
 .tabela{
-    width: 900px;
-    height: 500px;
+    width: 900px;    
     margin: 50px auto;
 }
 
@@ -106,7 +105,7 @@ tbody tr td{
 }
 
 #rodape{
-    padding: 70px;
+    padding: 30px;
     background-color: #2f86d6;
 }
 
@@ -138,7 +137,7 @@ tbody tr td{
     color: #fff;
     font-size: 16px;
     font-weight: 600px;
-    margin: 20px 0 70px;
+    margin: 20px 0;
 }
 
 .copyright{
